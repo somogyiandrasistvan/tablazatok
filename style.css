@@ -1,0 +1,32 @@
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+header {
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid gray;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+thead tr{
+    background-color: lightblue;
+}
+.vastag{
+    text-align: left;
+}
+tbody{
+    text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+    article {
+        overflow-x: scroll;
+    }
+    
+}
